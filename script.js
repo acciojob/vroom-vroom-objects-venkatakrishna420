@@ -23,7 +23,7 @@ SportsCar.prototype.getTopSpeed=function(){
     return this.topSpeed;
 }
 
-// const car=new SportsCar("ferrai","0239",200)
+const car=new SportsCar("ferrai","0239",200)
 console.log(car.getMakeModel())
 console.log(car.getTopSpeed())
 // Do not change the code below
