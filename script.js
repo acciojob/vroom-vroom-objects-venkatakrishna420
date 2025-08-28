@@ -1,3 +1,4 @@
+// Complete the js code
 function Car(make, model) {
 	if(typeof make !== "string" || typeof model !=="string"){
 		throw new error("make and model should be string")
@@ -22,6 +23,9 @@ SportsCar.prototype.getTopSpeed=function(){
     return this.topSpeed;
 }
 
-const car=new SportsCar("ferrai","0239",200)
+// const car=new SportsCar("ferrai","0239",200)
 console.log(car.getMakeModel())
 console.log(car.getTopSpeed())
+// Do not change the code below
+window.Car = Car;
+window.SportsCar = SportsCar;
